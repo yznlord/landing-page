@@ -1,5 +1,73 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    color: white;
+    text-decoration: none;
+    border: none;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+nav {
+    min-width: 75%;
+    background-color: #1F2937;
+    display: flex;
+    padding: 10px;
+}
+
+.left-links {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.right-links {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.container-one {
+    min-width: 75%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.one-left, .one-right {
+    width: 50%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+} 
+.one-left h1 {
+    font-size: 3rem;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.one-right {
+    background-color: grey;
+}
+
+.sign-up {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(0, 98, 255);
+}
