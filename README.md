@@ -1,3 +1,3 @@
 # landing-page
 
--landing page from the odin project
+Landing page designed to practise and demonstrate flex-box skills (from the odin project)

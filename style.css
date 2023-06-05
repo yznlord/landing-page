@@ -99,10 +99,6 @@ img {
     flex-wrap: wrap;
 }
 
-.card {
-
-}
-
 .container-three {
     display: flex;
     flex-direction: column;
